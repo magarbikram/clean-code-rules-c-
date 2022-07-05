@@ -1,8 +1,8 @@
 ﻿namespace CleanCode
 {
-    internal enum SuiteResponder
+    internal static class SuiteResponder
     {
-        SuiteSetupName,
-        SuiteTearDownName
+        public const string SuiteSetupName = "";
+        public const string SuiteTearDownName = "";
     }
 }

@@ -22,6 +22,7 @@ namespace CleanCode
 
         private static void IncludeSetupAndTearDownPages(PageData pageData, bool isSuite)
         {
+            File.OpenRead
             WikiPage testPage = pageData.GetWikiPage();
             StringBuilder newPageContent = new StringBuilder();
             IncludeSetupPages(testPage, newPageContent, isSuite);
